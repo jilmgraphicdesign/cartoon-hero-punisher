@@ -76,6 +76,7 @@ header img{
 
 img.list-image{
 	max-width: 100%;
+	border: 10px solid #dbdbdb;
 }
 
 p.caption{
