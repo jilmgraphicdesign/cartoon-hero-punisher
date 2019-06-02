@@ -1,25 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>The Punisher</title>
-	<link rel="stylesheet" type="text/css" href="css/hero.css">
-</head>
-<body>
-	<div class="wrapper">
-		<header>
-			<img src="img/profile.jpg"><br>
-			<img src="img/profileh1.png">
-			<h1>blah blah blah</h1>
-		</header>
-		<div class="content1">
+html, body{
+	font-family: playfair;
+	margin: 0;
+}
+
+header{
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+}
+
+h1{
+	font-size: 20px;
+	color: #dbdbdb;
+}
+
+header img{
+	max-width: 100%;
+}
+
+
+
+
+		/*<div class="content1">
 			<h2>Frank's Backstory</h2>
 			<h2>Story Motifs</h2>
 			<h2>Comic History</h2>
 			<p>FB</p>
 			<p>SM</p>
 			<p>CH</p>
-		</div>
-		<div class="content2">
+		</div>*/
+
+.content1{
+	margin: 0 auto;
+	padding: 0 20px; 
+	background-color: #dbdbdb;
+}
+
+
+		/*<div class="content2">
 			<h3>Who Has The Punisher Killed?</h3>
 			<p>In the marvel universe the punisher has killed alot of people blah blah blah</p>
 			<img class="list-image" src="img/list-image.png">
@@ -37,9 +55,26 @@
 				<li>?</li>
 				<li>?</li>
 			</ol>
-		</div>
-		<div class="content3">
-		
+
+		</div>*/
+
+.content2{
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: #a80101; 
+}
+
+img.list-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-style: italic;
+	font-size: 16px;
+	color: #dbdbdb;
+}
+
+		/*<div class="content3">
 			<h3>The Punisher In Other Media</h3>
 			<ul>
 				<li><a href="" target="_blank" title="learn more">movie</a></li>
@@ -50,16 +85,22 @@
 			<p>About Funisher
 			<a href="" target="_blank" title="listen to funisher here">Podcast</a></p>
 			<img class="funisher-img"src="img/funisher-img.jpg">
-			</div>
-		
-		<footer>
+		</div>*/
+
+.content3{
+	margin: 0 auto;
+	padding: 0 20px; 
+	background-color: black; 
+}
+
+img.funisher-img{
+	max-width: 100%;
+}
+
+		/*<footer>
 			<p>
 				Website Design By <a href="http://mrra.co" target="_blank" title="Visit Jenel's Website">Jenel Lawson</a><br>
 				Made during the <a href="http://skillshare.com" target="_blank" title="Visit Skillshare.com">Skillshare</a> class 'Hand-Coding Your First Website: HTML and CSS Basics' taught by <a href="http://mrra.co" target="_blank" title="Visit Rich's Website">Rich Armstrong</a><br>
 				&copy; 2019<br>
 			</p>
-		</footer>
-	</div>
-
-</body>
-</html>
+		</footer>*/
