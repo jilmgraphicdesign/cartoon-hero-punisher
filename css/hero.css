@@ -1,5 +1,5 @@
 html, body{
-	font-family: playfair;
+	font-family: impact;
 	margin: 0;
 }
 
@@ -32,8 +32,18 @@ header img{
 
 .content1{
 	margin: 0 auto;
-	padding: 0 20px; 
+	padding: 0 80px; 
 	background-color: #dbdbdb;
+}
+
+.content1 ul{
+	text-align: center;
+}
+
+.content1 ul li{
+	display: inline-block;
+	margin: 0 50px;
+
 }
 
 
@@ -60,7 +70,7 @@ header img{
 
 .content2{
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 80px;
 	background-color: #a80101; 
 }
 
@@ -89,7 +99,7 @@ p.caption{
 
 .content3{
 	margin: 0 auto;
-	padding: 0 20px; 
+	padding: 0 80px; 
 	background-color: black; 
 }
 
@@ -97,6 +107,27 @@ img.funisher-img{
 	max-width: 100%;
 }
 
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+a{
+	color: red;
+	text-decoration: none;
+
+}
+
+.content3 ul{
+	text-align: right;
+}
+
+.content3 ul li{
+	margin: 0 50px;
+
+}
 		/*<footer>
 			<p>
 				Website Design By <a href="http://mrra.co" target="_blank" title="Visit Jenel's Website">Jenel Lawson</a><br>
@@ -104,3 +135,21 @@ img.funisher-img{
 				&copy; 2019<br>
 			</p>
 		</footer>*/
+
+footer{
+	margin-top: 20px;
+	padding:40px 20px;
+	background-color: black;
+	color: #dbdbdb;
+}
+
+
+
+
+
+
+
+
+
+
+
