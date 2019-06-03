@@ -1,5 +1,6 @@
 html, body{
-	font-family: impact;
+	font-family: helvetica neue, helvetica;
+	font-size: 12px;
 	margin: 0;
 	padding: 0;
 }
@@ -11,7 +12,8 @@ header{
 }
 
 h1{
-	font-size: 20px;
+	font-family: impact;
+	font-size: 14px;
 	color: #dbdbdb;
 }
 
@@ -35,19 +37,23 @@ header img{
 	display: inline-block;
 	word-wrap: break-word;
 	width:200px;
-	margin:20px;
+	margin: 10px 20px;
 
 }
 
 h2{
+	font-family: impact;
 	text-shadow: 0 4px 20px black;
+	font-size: 24px;
 }
 
 .content2 ol li{
 	padding: 5px 10px;
-  	background-color: #EEEEEE;
-  	border: 1px solid #DDDDDD;
+  	background-color: #dbdbdb;
+  	border: 1px solid gray;
   	text-align: center;
+  	font-size: 14px;
+	font-family: impact;
 
 }
 .content2 ol{
@@ -66,6 +72,9 @@ nav ol{overflow:hidden; overflow-y:scroll;}
 
 }
 
+p.paragraph{
+	color: #dbdbdb;
+}
 
 img.list-image{
 	max-width: 100%;
@@ -75,7 +84,7 @@ img.list-image{
 
 p.caption{
 	font-style: italic;
-	font-size: 12px;
+	font-size: 10px;
 	color: #dbdbdb;
 	text-align: left;
 	padding-top: 320px
@@ -115,6 +124,10 @@ a{
 	text-decoration: none;
 
 }
+a:hover {
+  color: #ffae00;
+  text-decoration: underline;
+}
 
 .content3 ul{
 	float: center;
@@ -125,12 +138,14 @@ a{
 .content3 ul li{
 	text-align: left;
 	margin: 0 0 10px 0;
+	font-size: 14px;
 
 }
 
 h3{
-	font-size: 20px;
-	color: #dbdbdb;
+	font-family: impact;
+	font-size: 24px;
+	color: #dbdbdb;;
 	text-align: center;
 }
 
