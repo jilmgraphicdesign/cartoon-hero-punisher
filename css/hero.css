@@ -74,6 +74,7 @@ nav ol{overflow:hidden; overflow-y:scroll;}
 
 p.paragraph{
 	color: #dbdbdb;
+	font-size: 14px;
 }
 
 img.list-image{
@@ -84,7 +85,6 @@ img.list-image{
 
 p.caption{
 	font-style: italic;
-	font-size: 10px;
 	color: #dbdbdb;
 	text-align: left;
 	padding-top: 320px
